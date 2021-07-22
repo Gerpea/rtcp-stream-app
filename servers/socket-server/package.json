@@ -1,0 +1,17 @@
+{
+  "name": "socket-server",
+  "version": "0.0.1",
+  "description": "Server for translate rtcp to websocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "gerpea",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-rtsp-stream": "^0.0.9",
+    "nodemon": "^2.0.12"
+  }
+}
